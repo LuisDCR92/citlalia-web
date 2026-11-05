@@ -47,6 +47,15 @@
   .msg{padding:10px 14px;border-radius:16px;margin:8px 0;font-size:15.5px;max-width:85%}
   .in{background:#f1ece9}
   .out{background:#dcf5d9;margin-left:auto}
+  .offer{background:linear-gradient(135deg,#3d1830,#6d1f4c);color:#fbeef4;border-radius:22px;padding:30px 28px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+  .offer h2{color:#fff;margin-bottom:6px}
+  .offer p{color:#f0d9e4;max-width:620px}
+  .offer .btn{background:#fff;color:var(--plum)}
+  .feat{display:flex;gap:14px;align-items:flex-start}
+  .feat .ico{flex:none;width:40px;height:40px;border-radius:12px;background:var(--blush);color:var(--primary);display:grid;place-items:center;font-size:19px}
+  details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:10px}
+  summary{font-weight:600;color:var(--plum);cursor:pointer}
+  details p{color:var(--muted);margin-top:8px;font-size:16px}
   .two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
   @media (max-width:820px){.two{grid-template-columns:1fr}}
   footer{background:var(--plum);color:#f3e6ec;padding:48px 0 40px;font-size:15.5px}
@@ -98,8 +107,35 @@
       <p class="sub">Sin apps nuevas para tus clientas: todo pasa en el WhatsApp que ya usan.</p>
       <div class="grid">
         <div class="card"><div class="num">1</div><h3>Configura tu salón</h3><p>Agrega tus servicios, precios, horarios y quién hace cada servicio.</p></div>
-        <div class="card"><div class="num">2</div><h3>Conecta tu WhatsApp</h3><p>Citlalia contesta desde el número de WhatsApp Business de tu negocio.</p></div>
+        <div class="card"><div class="num">2</div><h3>Conectamos tu WhatsApp</h3><p>Lo hacemos contigo en unos minutos: solo necesitas el teléfono del salón a la mano para recibir un código.</p></div>
         <div class="card"><div class="num">3</div><h3>Recibe citas</h3><p>Ves todo en tu panel: agenda del día, clientas y conversaciones. Puedes tomar el control cuando quieras.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Hecha para tu salón</h2>
+      <p class="sub">Todo lo que necesitas para dejar de contestar mensajes entre clienta y clienta.</p>
+      <div class="grid">
+        <div class="card feat"><span class="ico">✦</span><div><h3>Con tu marca</h3><p>Sube el logo de tu negocio y Citlalia se ve como parte de tu salón.</p></div></div>
+        <div class="card feat"><span class="ico">✉</span><div><h3>Avisos por correo</h3><p>Te avisamos cuando una clienta necesita hablar contigo y cada mañana te llega tu agenda del día.</p></div></div>
+        <div class="card feat"><span class="ico">◔</span><div><h3>Control de tu plan</h3><p>Ves cuántas conversaciones llevas en el mes y te avisamos antes de llegar al límite.</p></div></div>
+        <div class="card feat"><span class="ico">☾</span><div><h3>Modo nocturno</h3><p>Usa el panel en modo claro u oscuro, como prefieras o como tenga tu teléfono.</p></div></div>
+        <div class="card feat"><span class="ico">✓</span><div><h3>Lista en 20 minutos</h3><p>Una guía de primeros pasos te lleva de la mano y puedes probar a Citlalia antes de conectarla.</p></div></div>
+        <div class="card feat"><span class="ico">♡</span><div><h3>Invita y gana</h3><p>Recomienda Citlalia a otro salón y gana un mes gratis cuando haga su primer pago.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="offer">
+        <div>
+          <h2>Precio fundador para los primeros 10 salones</h2>
+          <p>Esencial a <strong>$349</strong> y Profesional a <strong>$699</strong> al mes, fijo mientras mantengas tu suscripción. Primer mes gratis y te ayudamos a configurarlo en persona.</p>
+        </div>
+        <a class="btn" href="https://citlalia.floot.app/login">Apartar mi lugar</a>
       </div>
     </div>
   </section>
@@ -113,7 +149,18 @@
         <div class="card featured"><h3>Profesional</h3><div class="price">$999 <small>MXN/mes</small></div><ul><li><strong>800 conversaciones al mes</strong></li><li>Hasta 8 profesionales</li><li>1 sucursal</li><li>Control de anticipos para apartar cita</li></ul></div>
         <div class="card"><h3>Cadena</h3><div class="price">$2,499 <small>MXN/mes</small></div><ul><li><strong>2,000 conversaciones al mes</strong></li><li>Profesionales ilimitadas</li><li>Hasta 3 sucursales (+$600 por sucursal adicional)</li><li>Soporte prioritario</li></ul></div>
       </div>
-      <p class="sub" style="margin:24px 0 0;font-size:15px">Una conversación es una clienta distinta que te escribe en un periodo de 24 horas. ¿Necesitas más? Paquete extra de 200 conversaciones por $99. Primer mes gratis.</p>
+      <p class="sub" style="margin:24px 0 0;font-size:15px">Una conversación es una clienta distinta que te escribe en un periodo de 24 horas. ¿Necesitas más? Paquete extra de 200 conversaciones por $99. Primer mes gratis. Los primeros 10 salones pagan precio fundador.</p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <h2>Preguntas frecuentes</h2>
+      <p class="sub">Si tienes otra duda, escríbenos y te contestamos el mismo día.</p>
+      <details><summary>¿Necesito un número nuevo?</summary><p>Te recomendamos un chip nuevo solo para citas, que no tenga WhatsApp instalado. Si prefieres usar el número que ya conocen tus clientas, te explicamos las opciones antes de moverlo.</p></details>
+      <details><summary>¿Mis clientas sabrán que es una inteligencia artificial?</summary><p>Citlalia se presenta como la asistente virtual de tu salón. Contesta con tus precios y horarios reales, y cuando algo no lo sabe te pasa la conversación a ti.</p></details>
+      <details><summary>¿Qué pasa si se acaban mis conversaciones del mes?</summary><p>Te avisamos al 80% y al 100%. Puedes agregar 200 conversaciones por $99 o cambiar de plan. Los mensajes nunca se pierden: si se agotan, te llegan para que tú contestes.</p></details>
+      <details><summary>¿Hay contrato o permanencia?</summary><p>No. Pagas mes a mes con tarjeta en Mercado Pago o por transferencia, y cancelas cuando quieras.</p></details>
+      <details><summary>¿Puedo probarlo antes de pagar?</summary><p>Sí. Tu primer mes es gratis desde que conectamos tu número, y antes puedes probar a Citlalia en el simulador del panel.</p></details>
     </div>
   </section>
 </main>
